@@ -14,7 +14,7 @@ export default function Menu(){
             <MenuItem url="#depoimentos" className="hidden sm:flex">Depoimentos</MenuItem>
             
             <MenuItem  className="bg-gradient-to-r from-indigo-600 to-cyan-600">
-                <Link className="flex items-center gap-2" href={"https://web.whatsapp.com/send?phone=55219779342465"} target="_blank">
+                <Link className="flex items-center gap-2" href={"https://api.whatsapp.com/send?phone=5521979342465"} target="_blank">
                     <IconBrandWhatsapp size={15}/>
                     <span>Contato</span>
                 </Link>

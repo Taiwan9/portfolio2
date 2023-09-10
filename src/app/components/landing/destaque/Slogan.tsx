@@ -69,7 +69,7 @@ export default function Slogan(){
                     <IconBrandLinkedin className="hidden lg:inline" stroke={1} />
                     </Link>
                 </div>
-                <Link href={'https://drive.google.com/file/d/1o3peY0fEhLOw-55XGcvgfSi2z8XOWExV/view?usp=drive_link'}
+                <Link href={'https://drive.google.com/file/d/15kPdlxiQpqMa_c3DfqjhBbDTyNd7F2sZ/view?usp=drive_link'}
                     className={`
                     flex items-center gap-2 cursor-pointer
                     text-zinc-300 px-5 py-2.5
