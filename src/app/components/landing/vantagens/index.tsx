@@ -5,6 +5,7 @@ import vantagem3 from "../../../../../public/csharp.jpeg"
 import Projetos from "./Projetos";
 import RedeSocial from "../rodape/RedeSocial";
 import { IconBrandGithub, IconBrandWhatsapp, IconWorldWww } from "@tabler/icons-react";
+import RedeSocial2 from "./RedeSocial2";
 
 
 
@@ -15,23 +16,23 @@ export default function Vantagens(){
                 <Projetos
                     imagem={vantagem1}
                     titulo="Usg Imagem"
-                    subtitulo="Sistema de imagem e laudos feito em react e typescript, meu primeiro projeto profissional."
-                    url={<RedeSocial icone={<IconWorldWww />} url="https://www.usgimagem.com.br/" />}
+                    subtitulo="Sistema de imagem e laudos feito em react e typescript."
+                    url={<RedeSocial2 icone={<IconWorldWww />} url="https://www.usgimagem.com.br/" text="site" />}
                 />
 
                 <Projetos
                     imagem={vantagem2}
                     titulo="Portfólio v-1"
-                    subtitulo="Primeiro porfólio desenvolvido em React, Sass onde aprendi os conceitos de front-end e suas aplicações."
+                    subtitulo="Primeiro porfólio desenvolvido em React e Sass responsivo e intuitivo."
                     inverter
-                    url={<RedeSocial icone={<IconWorldWww />} url="https://taiwanmarinhocl.netlify.app/" />}
-                    repo={<RedeSocial icone={<IconBrandGithub />} url="https://github.com/Taiwan9/portfolio" />}
+                    url={<RedeSocial2 icone={<IconWorldWww />} url="https://taiwanmarinhocl.netlify.app/"  text="site"/>}
+                    repo={<RedeSocial2 icone={<IconBrandGithub />} url="https://github.com/Taiwan9/portfolio"  text="repo"/>}
                 />
                 <Projetos
                     imagem={vantagem3}
                     titulo="API C#"
                     subtitulo="API Rest  feita em C# com Asp.Net Core, Sqlserve, Docker. Um Crud Com autenticação e autorização seguindo a arquitetura de sistema e clean code."
-                    repo={<RedeSocial icone={<IconBrandGithub />} url="https://github.com/Taiwan9/IWantApp" />}
+                    repo={<RedeSocial2 icone={<IconBrandGithub />} url="https://github.com/Taiwan9/IWantApp" text="repo" />}
                 />
             </div>
         </Area>

@@ -2,7 +2,6 @@ import React from "react"
 import ImagemResponsiva from "../comum/ImagemResponsiva"
 import RedeSocial from "../rodape/RedeSocial"
 import { IconBrandWhatsapp } from "@tabler/icons-react"
-import RedesSociais from "../rodape/RedeSociais"
 
 export interface ProjetosProps {
     imagem: any
