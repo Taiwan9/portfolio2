@@ -20,7 +20,6 @@ export default function Projetos(props: ProjetosProps) {
         `}>
             <ImagemResponsiva
                 imagem={props.imagem}
-                className={props.inverter ? 'sm:rotate-6' : 'sm:-rotate-6'}
             />
             <div className={`
                 flex flex-col gap-y-6 sm:w-[350px]

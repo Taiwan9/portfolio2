@@ -1,10 +1,9 @@
 import Area from "../comum/Area";
-import vantagem1 from "../../../../../public/tela.png"
+import vantagem1 from "../../../../../public/imgJava.png"
 import vantagem2 from "../../../../../public/portfolio.png"
-import vantagem3 from "../../../../../public/csharp.jpeg"
+import vantagem3 from "../../../../../public/imagemJogoMestre.png"
 import Projetos from "./Projetos";
-import RedeSocial from "../rodape/RedeSocial";
-import { IconBrandGithub, IconBrandWhatsapp, IconWorldWww } from "@tabler/icons-react";
+import { IconBrandGithub, IconWorldWww } from "@tabler/icons-react";
 import RedeSocial2 from "./RedeSocial2";
 
 
@@ -15,24 +14,29 @@ export default function Vantagens(){
             <div className="flex flex-col items-center gap-y-16 sm:gap-y-36">
                 <Projetos
                     imagem={vantagem1}
-                    titulo="Usg Imagem"
-                    subtitulo="Sistema de imagem e laudos feito em react e typescript."
-                    url={<RedeSocial2 icone={<IconWorldWww />} url="https://www.usgimagem.com.br/" text="site" />}
-                />
-
-                <Projetos
-                    imagem={vantagem2}
-                    titulo="Portfólio v-1"
-                    subtitulo="Primeiro porfólio desenvolvido em React e Sass responsivo e intuitivo."
-                    inverter
-                    url={<RedeSocial2 icone={<IconWorldWww />} url="https://taiwanmarinhocl.netlify.app/"  text="site"/>}
-                    repo={<RedeSocial2 icone={<IconBrandGithub />} url="https://github.com/Taiwan9/portfolio"  text="repo"/>}
+                    titulo="Rasfood"
+                    subtitulo="Projeto JPA Hibernate para registro de itens do cardapio e histórico de pedidos."
+                    repo={<RedeSocial2 icone={<IconBrandGithub />} url="https://github.com/Taiwan9/rasfood/tree/main/rasfood"  text="repo"/>}
                 />
                 <Projetos
                     imagem={vantagem3}
-                    titulo="API C#"
-                    subtitulo="API Rest  feita em C# com Asp.Net Core, Sqlserve, Docker. Um Crud Com autenticação e autorização seguindo a arquitetura de sistema e clean code."
-                    repo={<RedeSocial2 icone={<IconBrandGithub />} url="https://github.com/Taiwan9/IWantApp" text="repo" />}
+                    titulo="Jogo Mestre"
+                    subtitulo="Projeto em Angular com Ionic e Supabase. Um App onde Jogadores montam times e jogam entre si."
+                    inverter
+                    url={<RedeSocial2 icone={<IconWorldWww />} url="https://app.jogodemestre.com/"  text="site"/>}
+                />
+                <Projetos
+                    imagem={vantagem1}
+                    titulo="Painel de Controle"
+                    subtitulo="Projeto Web com Java, JSP, Servlet, HTML, CSS e JavaScript. Um painel de controle para gerenciar produtos e usuários."
+                    repo={<RedeSocial2 icone={<IconBrandGithub />} url="https://github.com/Taiwan9/-Taiwan9-ProjetoWebJSP/tree/master"  text="repo"/>}
+                />
+                <Projetos
+                    imagem={vantagem1}
+                    titulo="Desafio Athenas"
+                    subtitulo="Desafio de Java Jsf com Primefaces, JPA e Hibernate. Um sistema de cadastro de usuários e IMC."
+                    inverter 
+                    repo={<RedeSocial2 icone={<IconBrandGithub />} url="https://github.com/Taiwan9/athenasRecuit"  text="repo"/>}
                 />
             </div>
         </Area>

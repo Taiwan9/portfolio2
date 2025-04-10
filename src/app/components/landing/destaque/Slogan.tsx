@@ -1,4 +1,4 @@
-import { IconArrowRight, IconBrandAngular, IconBrandCSharp, IconBrandGithub, IconBrandLinkedin, IconBrandReact, IconBrandWhatsapp, IconCertificate, IconSql, IconVideo } from "@tabler/icons-react"
+import { IconArrowRight, IconBrandAngular, IconBrandPhp, IconBrandGithub, IconBrandLinkedin, IconBrandReact, IconBrandWhatsapp, IconCertificate, IconSql, IconVideo } from "@tabler/icons-react"
 import Link from "next/link"
 
 export default function Slogan(){
@@ -49,7 +49,7 @@ export default function Slogan(){
             <div className=" flex font-thin text-zinc-400 text-center sm:text-left justify-center items-center space-x-4">
                 <IconBrandReact/>
                 <IconBrandAngular/>
-                <IconBrandCSharp/>
+                <IconBrandPhp/>
                 <IconBrandGithub/>
                 <IconSql/>
             </div>
@@ -69,7 +69,7 @@ export default function Slogan(){
                     <IconBrandLinkedin className="hidden lg:inline" stroke={1} />
                     </Link>
                 </div>
-                <Link href={'https://drive.google.com/file/d/15kPdlxiQpqMa_c3DfqjhBbDTyNd7F2sZ/view?usp=drive_link'}
+                <Link href={'https://drive.google.com/file/d/1rSMpv1x0l7mikpMnR3mn5iAPsQCSXbAV/view?usp=sharing'}
                     className={`
                     flex items-center gap-2 cursor-pointer
                     text-zinc-300 px-5 py-2.5
